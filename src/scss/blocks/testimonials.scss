@@ -1,0 +1,5 @@
+.testimonials {
+  &__title {
+    @include title-h2;
+  }
+}

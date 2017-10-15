@@ -1,0 +1,23 @@
+.intro {
+  position: relative;
+  z-index: 1;
+  max-width: 460px;
+  margin-left: 170px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 70px;
+  &__title {
+    color: $font-color-h1;
+    font-size: $font-size-h1;
+    line-height: .58;
+    font-weight: 800;
+    letter-spacing: .325px;
+  }
+  &__description {
+    font-family: $font-Lato;
+    color: $base-font-color-inverse;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: $base-font-size + 1px;
+  }
+}

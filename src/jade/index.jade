@@ -4,4 +4,113 @@ html
         meta(name="viewport" content="width=device-width, initial-scale=1")
         title Coffee
     body
-        h1 Coffee
+        header.main-header
+            .main-header__layout
+                img.main-header__logo(src="img/img-logo.png" width="154" height="127" alt="Be Latte coffee")
+                nav.main-nav
+                    ul.main-nav__items
+                        li.main-nav__item
+                            a.main-nav__link.main-nav__link--active Home
+                        li.main-nav__item
+                            a.main-nav__link(href="#") About us
+                        li.main-nav__item
+                            a.main-nav__link(href="#") Menu
+                        li.main-nav__item
+                            a.main-nav__link(href="#") Blog
+                        li.main-nav__item
+                            a.main-nav__link(href="#") Contact
+                section.intro
+                    h1.intro__title Welcome to Be Latte
+                    p.intro__description.
+                        Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit.
+                        Auctor aliquet sollicitudin lorem quis.
+                    button.btn.btn--white(type="button") See menu
+        main.main
+            .main__layout
+                section.about
+                    p.about__title
+                        | Coffee never tasted
+                        span.about__title.about__title--underline  so good!
+                    p.about__description.
+                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+                        Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                        ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    img.cup-of-coffee(src="img/icon-cup-coffee.png" alt="Coffee never tasted so good!")
+                section.menu
+                    h2.menu__title menu
+                    ul.menu__items
+                        li.menu__item
+                            article.menu-card.menu-card--coffee
+                                h3.menu-card__title Coffee
+                            table.menu-card__items
+                                tr.menu-card__row
+                                    td.menu-card__col Latte
+                                    td.menu-card__col $3.00
+                                tr.menu-card__row
+                                    td.menu-card__col Mocha
+                                    td.menu-card__col $3.25
+                                tr.menu-card__row
+                                    td.menu-card__col Expresso
+                                    td.menu-card__col $3.75
+                                tr.menu-card__row
+                                    td.menu-card__col Capuccino
+                                    td.menu-card__col $3.00
+                        li.menu__item
+                            article.menu-card.menu-card--tea
+                                h3.menu-card__title Tea
+                            table.menu-card__items
+                                tr.menu-card__row
+                                    td.menu-card__col Iced tea
+                                    td.menu-card__col $2.75
+                                tr.menu-card__row
+                                    td.menu-card__col Cold brew
+                                    td.menu-card__col $3.25
+                                tr.menu-card__row
+                                    td.menu-card__col Jasmine green
+                                    td.menu-card__col $3.75
+                                tr.menu-card__row
+                                    td.menu-card__col Peppermint Herbal
+                                    td.menu-card__col $3.00
+                        li.menu__item
+                            article.menu-card.menu-card--desserts
+                                h3.menu-card__title Desserts
+                            table.menu-card__items
+                                tr.menu-card__row
+                                    td.menu-card__col Tiramisu
+                                    td.menu-card__col $3.00
+                                tr.menu-card__row
+                                    td.menu-card__col Cheese cake
+                                    td.menu-card__col $3.25
+                                tr.menu-card__row
+                                    td.menu-card__col Black forest
+                                    td.menu-card__col $3.75
+                                tr.menu-card__row
+                                    td.menu-card__col Brownie
+                                    td.menu-card__col $3.00
+                    a(href="#").btn.btn--black See full menu
+                    img.cup-of-coffee(src="img/icon-cup-coffee.png" alt="Coffee never tasted so good!")
+                section.testimonials
+                    h2.testimonials__title Testimonials
+                    .slider
+                        div#slide1.slide.slide--slide1
+                            .slide__card
+                                .slide__num .01
+                                img.slide__avatar(src='./img/image-brendan-lim.png' width="84" height="84" alt="Chris Parker")
+                                blockquote.slide__blockquote
+                                    p.slide__title Chris Parker
+                                    p.slide__description.
+                                        Nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.
+                        ul.slider__controls
+                            li.slider__control
+                                input#slide-control1.slider__radio(type="radio" name="slide" checked)
+                                label.slider__label(for="slide-control1")
+                            li.slider__control
+                                input#slide-control2.slider__radio(type="radio" name="slide")
+                                label.slider__label(for="slide-control2")
+                            li.slider__control
+                                input#slide-control3.slider__radio(type="radio" name="slide")
+                                label.slider__label(for="slide-control3")
+                    img.cup-of-coffee(src="img/icon-cup-coffee.png" alt="Coffee never tasted so good!")
+        footer.main-footer
+            .main-footer__layout

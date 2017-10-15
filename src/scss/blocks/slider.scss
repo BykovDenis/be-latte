@@ -1,0 +1,42 @@
+.slider {
+  position: relative;
+  height: 420px;
+  width: 100%;
+  background-color: $bg-color-slider;
+  &__controls {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    list-style-type: none;
+    display: flex;
+    @include flex-center;
+  }
+  &__radio {
+    display: none;
+  }
+  &__label:before {
+    display: table;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    content: '';
+  }
+  &__radio:checked + &__label:before {
+    display: table;
+    content: '';
+    background: none;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin-right: 2px;
+  }
+  &__control {
+    margin-right: 8px;
+    cursor: pointer;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.menu-card {
+  position: relative;
+  display: flex;
+  @include flex-center;
+  width: 400px;
+  height: 290px;
+  margin-bottom: 40px;
+  background-size: cover;
+  z-index: 1;
+  &::before {
+    display: block;
+    background-color: rgba(236, 236, 236, .15);
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 290px;
+  }
+  &--coffee {
+    background: #e4e7eb url($base-url + 'image-cup-of-coffee.jpg') 0 0 no-repeat;
+  }
+  &--tea {
+    background: #e4e7eb url($base-url + 'image-tea-realisticshots.jpg') 0 0 no-repeat;
+  }
+  &--desserts {
+    background: #e4e7eb url($base-url + 'image-dessert.jpg') 0 0 no-repeat;
+    &::before {
+      background-color: rgba(245, 215, 110, .85);
+    }
+  }
+  &__title {
+    font: 700 #{$base-font-size * 2 + 12px} / .6 $font-PlayfairDisplay;
+    color: $color-black-dark;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  &__items {
+    width: 230px;
+  }
+  &__row {
+    font: 900 #{$base-font-size + 2px} / 1.75 $font-Lato;
+    text-align: left;
+    td:last-of-type {
+      font-weight: 500;
+      text-align: right;
+    }
+  }
+}

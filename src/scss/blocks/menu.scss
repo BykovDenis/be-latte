@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  &__title {
+    @include title-h2;
+  }
+  &__items {
+    padding: 0;
+    margin-bottom: 60px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
