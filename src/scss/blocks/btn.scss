@@ -1,0 +1,24 @@
+.btn {
+  font-family: $font-Lato;
+  font-size: $base-font-size - 1px;
+  line-height: 1.84;
+  font-weight: 800;
+  background: none;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+  letter-spacing: .325px;
+  cursor: pointer;
+  &--white {
+    width: 180px;
+    color: $base-font-color-inverse;
+    border: 2px solid #ffffff;
+  }
+  &--black {
+    width: 228px;
+    color: #39312f;
+    border: 2px solid #39312f;
+    align-self: center;
+    text-align: center;
+  }
+}

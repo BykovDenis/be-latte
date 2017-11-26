@@ -1,8 +1,29 @@
 /* Определяем цвета */
 
-$color-black: #000000;
+$color-black-dark: #000000;
+$color-black: #28211f;
+$color-white: #ffffff;
+$color-brown: #6a0d00;
+$color-brown-dark: #39312f;
+$color-yellow: #f5d76e;
+$color-gray: #2f2f2f;
 
 $font-opensans: 'Open Sans', sans-serif;
-$base-url: './../';
-$base-url-img-submodules: './../../../img/';
+$font-PlayfairDisplay: 'PlayfairDisplay', 'Times New Roman', sans-serif;
+$font-Lato: 'Lato', Arial, sans-serif;
+$base-font-size: 14px;
+$font-size-h1: 48px;
+$font-size-h2: 32px;
+$font-size-h3: 20px;
+$base-font-color: $color-black;
+$base-font-color-inverse: $color-white;
+$menu-color-link: $color-white;
+$menu-color-link-active: $color-yellow;
+$font-color-h1: $color-yellow;
+
+$bg-color-slider: $color-brown-dark;
+
+$page-width: 1300px;
+$base-url: './../img/';
+
 

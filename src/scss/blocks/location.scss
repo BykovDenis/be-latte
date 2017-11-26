@@ -1,0 +1,14 @@
+.location {
+  margin-bottom: 9px;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 425px;
+    background: url($base-url + 'bg-map.jpg') -200px -130px no-repeat;
+  }
+  &__title {
+    @include title-h2;
+    margin-bottom: 70px;
+  }
+}

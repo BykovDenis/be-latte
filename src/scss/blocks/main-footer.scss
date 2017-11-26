@@ -1,0 +1,21 @@
+.main-footer {
+  padding-top: 93px;
+  min-height: 228px;
+  width: 100%;
+  background-color: $color-brown-dark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font: 800 #{$base-font-size + 2px} / 1.5 $font-Lato;
+  color: $base-font-color-inverse;
+  &__layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__contacts {
+    margin: 0;
+  }
+}

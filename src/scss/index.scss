@@ -1,4 +1,40 @@
 @import './normalize';
 @import './variables';
+@import './fonts';
+@import './mixins';
 
+@import './blocks/main';
+@import './blocks/main-header';
+@import './blocks/main-nav';
+@import './blocks/intro';
+@import './blocks/about';
+@import './blocks/menu';
+@import './blocks/menu-card';
+@import './blocks/btn';
+@import './blocks/testimonials';
+@import './blocks/cup-of-coffee';
+@import './blocks/slider';
+@import './blocks/slide';
+@import './blocks/location';
+@import './blocks/location-card';
+@import './blocks/main-footer';
+@import './blocks/socials';
 
+body {
+  font-family: $font-PlayfairDisplay;
+  font-size: $base-font-size;
+  color: $base-font-color;
+}
+
+a {
+  font-family: $font-PlayfairDisplay;
+  font-size: $base-font-size;
+  color: $base-font-color;
+  text-decoration: none;
+}
+
+.fake {
+  background-image: url($base-url + 'img-logo.png'),
+    url($base-url + 'icon-cup-coffee.png'),
+    url($base-url + 'image-brendan-lim.png');
+}

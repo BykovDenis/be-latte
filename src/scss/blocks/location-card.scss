@@ -1,0 +1,38 @@
+.location-card {
+  background-color: $color-yellow;
+  padding: 50px;
+  width: 357px;
+  &__items {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  &__item {
+    margin-bottom: 28px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-size: $font-size-h3;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+  &__description {
+    margin: 0;
+    font: 600 #{$base-font-size + 2px} / 1.5 $font-Lato;
+  }
+
+  &__table {
+    font: 600 #{$base-font-size + 2px} / 1.5 $font-Lato;
+    & td:first-child {
+      min-width: 95px;
+    }
+    & td:last-of-type {
+      font-weight: 400;
+    }
+  }
+}

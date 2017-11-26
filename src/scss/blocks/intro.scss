@@ -1,0 +1,29 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  max-width: 460px;
+  min-height: 195px;
+  margin-left: 170px;
+  margin-top: auto;
+  margin-bottom: auto;
+  &__title {
+    margin: 0;
+    color: $font-color-h1;
+    font-size: $font-size-h1;
+    line-height: .58;
+    font-weight: 700;
+    letter-spacing: .325px;
+  }
+  &__description {
+    margin: 0;
+    font-family: $font-Lato;
+    color: $base-font-color-inverse;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: $base-font-size + 1px;
+  }
+}

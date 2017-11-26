@@ -1,0 +1,14 @@
+@mixin flex-center {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin title-h2 {
+  font: 700 #{$font-size-h2} / .6 $font-PlayfairDisplay;
+  color: $color-gray;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 58px;
+}
