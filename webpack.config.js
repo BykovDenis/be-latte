@@ -154,8 +154,8 @@ module.exports = {
   context: jsSourcePath,
   devtool: 'source-map',
   entry: {
-    sql_viewer: './js',
-    sql_viewer_styles: './scss'
+    be_latte: './js',
+    be_latte_styles: './scss'
   },
   output: {
     path: buildPath,
@@ -242,5 +242,5 @@ if (REFRESH === 'refresh') {
       dry: false,
     })
   );
-    
+
 }
