@@ -15,15 +15,19 @@
 @import './blocks/cup-of-coffee';
 @import './blocks/slider';
 @import './blocks/slide';
+@import './blocks/location';
+@import './blocks/location-card';
+@import './blocks/main-footer';
+@import './blocks/socials';
 
 body {
-  font-family: PlayfairDisplay;
+  font-family: $font-PlayfairDisplay;
   font-size: $base-font-size;
   color: $base-font-color;
 }
 
 a {
-  font-family: PlayfairDisplay;
+  font-family: $font-PlayfairDisplay;
   font-size: $base-font-size;
   color: $base-font-color;
   text-decoration: none;

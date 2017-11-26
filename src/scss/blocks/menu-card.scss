@@ -4,7 +4,7 @@
   @include flex-center;
   width: 400px;
   height: 290px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   background-size: cover;
   z-index: 1;
   &::before {
@@ -37,7 +37,7 @@
     width: 230px;
   }
   &__row {
-    font: 900 #{$base-font-size + 2px} / 1.75 $font-Lato;
+    font: 900 #{$base-font-size + 2px} / 1.5 $font-Lato;
     text-align: left;
     td:last-of-type {
       font-weight: 500;

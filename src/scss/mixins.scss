@@ -5,7 +5,7 @@
 }
 
 @mixin title-h2 {
-  font: 700 #{$base-font-size * 2 + 12px} / .6 $font-PlayfairDisplay;
+  font: 700 #{$font-size-h2} / .6 $font-PlayfairDisplay;
   color: $color-gray;
   text-align: center;
   text-transform: uppercase;

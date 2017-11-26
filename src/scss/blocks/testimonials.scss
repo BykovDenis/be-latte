@@ -1,5 +1,6 @@
 .testimonials {
   &__title {
     @include title-h2;
+    margin-bottom: 65px;
   }
 }

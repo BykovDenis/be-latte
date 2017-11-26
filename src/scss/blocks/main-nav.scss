@@ -10,12 +10,13 @@
     min-height: 100px;
     list-style-type: none;
     margin: 0;
-    margin-left: 100px;
+    margin-left: 106px;
+    padding-left: 0;
   }
   &__item {
     margin-right: 15px;
     &:nth-of-type(2) {
-      margin-right: 230px;
+      margin-right: 235px;
     }
   }
   &__link {

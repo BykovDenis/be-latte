@@ -1,12 +1,12 @@
 .slider {
   position: relative;
-  height: 420px;
+  min-height: 425px;
   width: 100%;
   background-color: $bg-color-slider;
   &__controls {
     position: absolute;
-    bottom: 20px;
-    right: 200px;
+    bottom: 48px;
+    right: 206px;
     list-style-type: none;
     display: flex;
     @include flex-center;
