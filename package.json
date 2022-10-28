@@ -53,7 +53,7 @@
     "source-map-loader": "^0.2.0",
     "style-loader": "^0.13.2",
     "webpack": "^3.4.1",
-    "webpack-dashboard": "^0.3.0"
+    "webpack-dashboard": "^3.3.7"
   },
   "dependencies": {
     "babel-core": "^6.23.1",
